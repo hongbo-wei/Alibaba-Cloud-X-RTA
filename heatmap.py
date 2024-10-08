@@ -26,7 +26,7 @@ def generate_heatmap(start_time, end_time):
     HeatMap(heat_data, radius=10, max_zoom=13).add_to(dubai_map)
 
     # Save the map to an HTML file
-    dubai_map.save('dubai_transport_heatmap.html')
+    dubai_map.save('templates/taxi_heatmap.html')
 
 # Example of user input for start and end time
 # start_time = '2024-03-12T00:00:00Z'

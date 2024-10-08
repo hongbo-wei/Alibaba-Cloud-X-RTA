@@ -11,11 +11,11 @@ def index(request):
     }
     return render(request, 'index.html', context)
 
-def clubs(request):
+def heatmap(request):
     likes, loves = get_likes_and_loves()
     context = {
         'likes': likes,
         'loves': loves,
         'active': 'clubs & extra',
     }
-    return render(request, 'clubs.html', context)
+    return render(request, 'taxi_heatmap.html', context)
