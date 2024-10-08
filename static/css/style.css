@@ -119,7 +119,7 @@ blockquote {
 	vertical-align: middle;
 	min-height: 100vh;
 	width: 100%;
-	background-image: url("../images/brain-boxing.jpg");
+	background-image: url("../images/the-visioneers.jpg"); /* update the background image */
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
