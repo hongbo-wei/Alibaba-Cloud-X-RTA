@@ -24,6 +24,18 @@ The platform serves as an educational resource for boxing enthusiasts, providing
 - Interactive learning tools, such as an AI-powered boxing chatbot and punch classification feature.
 - Developer contact information is available on every page for user support and feedback.
 
+### Run the project
+1. **Install dependencies**  
+   ```bash
+   pipenv shell
+   pipenv install
+   ```
+
+2. **Run the server**  
+   ```bash
+   python manage.py runserver
+   ```
+
 ### Deployment
 
 BoxingHub is hosted on a scalable web service platform, integrating Cloudflare CDN for efficient content delivery and SSL certification to ensure a secure network connection.
@@ -40,17 +52,6 @@ Follow these steps to set up the web application:
 - AI inference API Key from [Roboflow](https://roboflow.com/)
 
 Put these in secret keys and tokens in a .env file
-
-1. **Install dependencies**  
-   ```bash
-   pipenv shell
-   pipenv install
-   ```
-
-2. **Run the server**  
-   ```bash
-   python manage.py runserver
-   ```
 
 ### Folder Structure and File Descriptions
 
