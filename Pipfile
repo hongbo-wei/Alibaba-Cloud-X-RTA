@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+inference-sdk = "*"
+pillow = "*"
+python-dotenv = "*"
+openai-whisper = "*"
+"pyannote.audio" = "*"
+pydub = "*"
+torchvision = "*"
+pytz = "*"
+pandas = "*"
+folium = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
